@@ -22,7 +22,7 @@ This project provides a minimal yet functional CMS with an elegant admin panel a
 ---
 
 ## Requirements
-
+- Docker
 - PHP 8.3+
 - Composer
 - Node.js 18+
@@ -37,8 +37,8 @@ This project provides a minimal yet functional CMS with an elegant admin panel a
 Clone the repository from GitHub:
 
 ```bash
-git clone https://github.com/sathishocs/laravel-lightweight-cms.git
-cd laravel-lightweight-cms
+git clone https://github.com/sathishocs/Laravel-12-Filament-CMS-Back-office-and-website-Demo.git
+cd Laravel-12-Filament-CMS-Back-office-and-website-Demo
 ```
 
 Or download the ZIP directly from GitHub using **Code → Download ZIP**.
