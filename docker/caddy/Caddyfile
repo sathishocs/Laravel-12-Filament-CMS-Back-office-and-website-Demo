@@ -1,0 +1,29 @@
+{
+	auto_https disable_redirects
+}
+
+{$SERVER_NAME}:443 {
+	encode gzip
+	tls /var/ssl/certs/cert.pem /var/ssl/certs/key.pem
+
+	root * /var/www/html/public
+	php_fastcgi php-fpm:9000
+	file_server
+}
+
+:80 {
+    @not_proxy {
+        header X-Forwarded-Proto !https
+        header !X-Forwarded-Proto
+        host !{$SERVER_NAME}
+    }
+
+	encode gzip
+    redir @not_proxy https://{host}{uri} permanent
+
+	root * /var/www/html/public
+	php_fastcgi php-fpm:9000 {
+		trusted_proxies private_ranges
+	}
+	file_server
+}
