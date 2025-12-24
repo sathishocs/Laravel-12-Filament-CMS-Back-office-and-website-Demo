@@ -1029,9 +1029,6 @@ HTML;
 
 <h2>Feedback</h2>
 <p>Your feedback helps us improve. If you have suggestions for topics you'd like us to cover or ways we can make the website better, we're all ears.</p>
-
-<h2>Contributing</h2>
-<p>This is an open source project. If you'd like to contribute, check out our GitHub repository. We welcome pull requests, bug reports, and feature suggestions!</p>
 HTML;
     }
 }
