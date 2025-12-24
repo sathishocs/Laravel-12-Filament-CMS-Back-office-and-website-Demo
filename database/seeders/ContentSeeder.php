@@ -1023,8 +1023,8 @@ HTML;
 <h2>Follow Us</h2>
 <p>Stay connected and follow us on social media for the latest updates:</p>
 <ul>
-<li>X: <a href="https://x.com/ozdemirdev">@ozdemirdev</a></li>
-<li>GitHub: <a href="https://github.com/ozdemirburak/laravel-simple-cms">ozdemirburak/laravel-simple-cms</a></li>
+<li>X: <a href="https://x.com/Sathish26353329">@sathish</a></li>
+<li>GitHub: <a href="https://github.com/sathishocs">sathishocs</a></li>
 </ul>
 
 <h2>Feedback</h2>
